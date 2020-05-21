@@ -27,7 +27,7 @@ namespace MercenaryCamp
         [SettingPropertyGroup("Group 1")]
         public float SomeMultiplier { get; set; } = 1.5f;
         [XmlElement]
-        [SettingProperty("Some multiplier Enabled", "Enables SomeMultiplier")]
+        [SettingProperty("Relationship Value Affect", "Relationships Affect Mercenary Unit Contract Costs")]
         [SettingPropertyGroup("Group 1")]
         public bool MultiplierEnabled { get; set; } = true;
         [XmlElement]
