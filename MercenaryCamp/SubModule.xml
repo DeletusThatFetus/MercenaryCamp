@@ -1,20 +1,22 @@
 ﻿<Module>
   <Name value="Mercenary Camp" />
   <Id value="MercenaryCamp" />
-  <Version value="1.0.0" />
+  <Version value="v1.0.0" />
   <SingleplayerModule value="true" />
   <MultiplayerModule value="false" />
+  <Official value="false"/>
   <DependedModules>
     <DependedModule Id="Native" />
     <DependedModule Id="SandBoxCore" />
     <DependedModule Id="Sandbox" />
+    <DependedModule Id="CustomBattle"/>
     <DependedModule Id="StoryMode" />
   </DependedModules>
   <SubModules>
     <SubModule>
       <Name value="MercenaryCamp" />
       <DLLName value="MercenaryCamp.dll" />
-      <SubModuleClassType value="MercenaryCamp.CampMercenarySubModule" />
+      <SubModuleClassType value="MercenaryCamp.MercenaryCampSubModule" />
       <Tags>
         <Tag key="DedicatedServerType" value="none" />
         <Tag key="IsNoRenderModeElement" value="false" />
